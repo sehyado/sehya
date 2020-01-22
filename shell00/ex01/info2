@@ -1,0 +1,18 @@
+마지막으로 날짜 수정하는 방법은
+touch -t 를 이용하여 수정한다
+
+touch -t yyyyMMddhhmm 파일이름 으로
+
+touch -t : 날짜 수정 명령어
+
+yyyyMMddhhmm : 년도/월/일/시간/분 
+
+으로 예를 들어 touch -t 202006012220 testShell00 을 입력하게 되면
+
+ls -l 명령어를 입력하면 
+
+jun 1 2020 testShell00 으로 바뀌게 된다.
+
+마지막으로 -cf testShell00.tar testShell00 을 입력하여 testShell00.tar  압축파일을 생성하여 제출한다
+
+-cf 생성할 압축파일이름 압축할 파일이름
