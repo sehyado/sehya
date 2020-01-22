@@ -1,0 +1,7 @@
+git log -num --pretty=%H
+
+git log : git 로그들을 출력
+
+-num : -숫자 : 숫자 개만큼 출력
+
+
