@@ -1,0 +1,19 @@
+일단 주어진 무시하는 파일 이름을 나열하기 위해서는 그 파일들을 무시하는 파일을 만들어야 된다.
+
+.git 이 있는 전(front)파일로 돌아가 vim .gitignore 을 쳐서
+
+무시할 파일 이름을 입력하자 
+
+예)
+.DS_Store
+mywork.c~
+
+그후 저장하고 나오면 .gitignore 이라는 파일이 생성된다
+
+다시 ex06으로 돌아와 vim git_ignore.sh 을 입력하여 메모장으로 넘어와
+
+git ls-files --ignore --exclude-standard --others
+
+를 입력한다.
+
+뜻은 나중에 서술하겠지...
