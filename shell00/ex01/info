@@ -1,0 +1,15 @@
+testShell00.tar 이라는 압축파일을 만들기 전에 testShell00이라는 파일을 생성한다.
+그 후 ls -l 명령어를 쳐보면 -rw-r--r-- 1 xx xx 0 생성날짜  testShell00
+이라고 뜬다.
+앞에 -rw-r--r-- 은 접근 권한을 뜻하는데 이것을 바꾸기 위해서는 chmod 명령어를 사용한다.
+chmod (u g o a) + (r w x) 파일이름 를 입력 할 수 있는데
+u : 맨 앞 3자리 , g : 가운데 3자리 , o : 맨 뒤 3자리 , a : 모든 자리를 의미한다
+
+예를 들어 -rw-r--r-- 에서 chmod a+x 파일이름 을 입력하게 되면 
+결과 값은 -rwx-r-x-r-x 로 변하게 된다.
+
+그 후 다 만들면  -cf testShell00.tar testShell00 을 입력하여 
+
+testShell00.tar 이라는 압축파일을 만들 수 있다.
+
+-cf 생성할 압축파일이름.확정자 압축할 파일이름
