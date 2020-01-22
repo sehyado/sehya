@@ -1,0 +1,15 @@
+klist.txt 파일을 만들기 위해
+
+klist 라는 명령어를 이해해야 한다.
+
+klist 는 kerberos 의 자격 증명을 나열 하는 명령어이다 (직역)
+
+klist > klist.txt  명령어를 치게 되면 klist.txt 파일이 생성되는데
+
+그냥 klist 를 치게 되면 Issued  Expires  Principal
+
+이 뜨게 되고 
+
+> klist.txt 의 뜻은 위에 뜬 항목들을 .txt파일로 만든다는 의미이다
+
+klist > 생성할 파일이름.확정자
