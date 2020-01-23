@@ -1,0 +1,2 @@
+cat /etc/passwd | sed '/^#/d' | awk 'NR%2==0' | rev | sort -r | sed 's/^.*://' | tr '\n' ',' | sed 's/,/, /g' | sed 's/, $/./g' | tr -d '/n'
+
