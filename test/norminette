@@ -1,0 +1,2 @@
+norminette // 파일 검사
+norminette -R CheckForbiddenSourceHeader // 줄검사
